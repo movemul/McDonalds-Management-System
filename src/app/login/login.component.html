@@ -1,0 +1,25 @@
+<div class="login-container">
+  <h2>McDonald's Login</h2>
+
+  <div>
+    <label>Username</label>
+    <input
+      type="text"
+      placeholder="Enter Username"
+      [(ngModel)]="username">
+  </div>
+
+  <br>
+
+  <div>
+    <label>Password</label>
+    <input
+      type="password"
+      placeholder="Enter Password"
+      [(ngModel)]="password">
+  </div>
+
+  <br>
+
+<button (click)="login()">Login</button>
+</div>
